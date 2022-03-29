@@ -10,5 +10,5 @@ const skills = ['JavaScript'];
 for (let i = 0; i < skills.length; i++) {
     const item = document.createElement ('li');
     item.textContent = skills[i];
-    skillsList.appendChild(item);
+    skillList.appendChild(item);
 };
