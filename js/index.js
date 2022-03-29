@@ -9,6 +9,6 @@ const skillList = skillsSelection.querySelector('ul');
 const skills = ['JavaScript'];
 for (let i = 0; i < skills.length; i++) {
     const item = document.createElement ('li');
-    item.textContext = skills[i];
+    item.textContent = skills[i];
     skillsList.appendChild(item);
 };
