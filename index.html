@@ -3,7 +3,11 @@
     <body>
         <head>
             <meta name="viewport" content="width-device, initial-scale=1.0">
-            <title id = "Home"></title>
+            <title id = "Home">Cecilia Rodriguez</title>
+            <link rel="stylesheet" href="css/index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+            <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
         </head>
         <nav>
             <ul>
@@ -14,12 +18,11 @@
         </nav>        
         
         <main>
-        <header>Getting to know a newbie web developer.</header>
-        <section>
-            
-            <h1 id = "About"><strong>About</strong></h1>
+        <header></header>
+        
+        <section id = "about">
+            <h1><strong>About</strong></h1>
             <h2><em>Cecilia Rodriguez</em></h2>
-
             <p>I was born in Honduras, and I have been living in the United States for 6 years now.<br>
             I have always lived in the Cary-Raleigh area and so far I really like it.<br>
             My mother language is Spanish, but learned English when I was younger, which was helpful once I moved here.<br>
@@ -28,7 +31,7 @@
             Moving to a different country has been challenging, but I have had fun with it.</p>
             </section>
 
-            <section>
+            <section id="experience">
                 <h2><strong>Experience</strong></h2>
                 <p>I have no previous experience with coding, but have always been interested about it. Previously I was doing a CCNA course with Cisco, but I like coding more. So far, the JavaScript part has been more difficult than anything.
                 </p>
@@ -39,32 +42,37 @@
             <ul>
             </ul>
 
-        </section>
-                <h3 id = "Connect"><strong>Connect</strong></h3>
+        </section> 
+            <section id = "connect">
+                <h3><strong>Connect</strong></h3>
                 <p>GitHub: <a href = "https://github.com/cecerodrgz">cecerodrgz</a></p>
                 <p>Replit: <a href = "https://replit.com/@cecerodrgz">cecerodrgz</a></p>
                 <p>Instagram: <a href="https://www.instagram.com/cecerodrgz">Cecilia Rodriguez</a></p>
                 <p>Email: <a href = "mailto: cecirodrgz71@gmail.com">Cecilia Rodriguez</a></p>
+            </section>
 
             <hr>
-            <section> 
-                <h2>Leave a Meassage:</h2>
+            <section id = "message"> 
+                <h2><strong>Leave a Meassage:</strong></h2>
                 <form name="leave_message">
-                    <label for="name">Name:</label>
+                    <label for="name">Name:</label><br>
                     <input type = 'text' name = 'name' required = 'true'><br>
-                    <label for = "email">Email:</label>
+                    <label for = "email">Email Address:</label><br>
                     <input type = 'email' name = 'email' required = 'true'><br>
-                    <textarea name = 'message' required = 'true'></textarea><br>
-                    <button type = 'submit'>Submit</button>
+                    <label for="message">Message:</label><br>
+                    <textarea name = 'message' required = 'true' placeholder="Enter message..."></textarea><br>
+                    <button type = 'submit'><strong>Submit</strong></button>
                 </form>
             </section>
+            
+            <section id = "messages">
+                <h2><strong>Messages</strong></h2>
+                <ul>
+                    
+                </ul>
+            </section>
+
             <footer>
-                <section id = "messages">
-                    <h2>Messages</h2>
-                    <ul>
-                        
-                    </ul>
-                </section>
             </footer> 
             <script src = "js\index.js" ></script>
         </body>
