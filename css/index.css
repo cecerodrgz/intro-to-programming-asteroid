@@ -1,0 +1,100 @@
+body {
+    background-color: honeydew;
+    color: olivedrab;
+    font-family: 'Merriweather', serif;
+}
+
+section {
+    padding: 15px;
+    margin: 15px;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: lighter;
+}
+
+#about {
+    background-color: white;
+    border-radius: 18px;
+}
+
+#experience {
+    background-color: palegreen;
+    border-radius: 18px;
+}
+
+#skills {
+    background-color: rgb(135, 235, 213);
+    border-radius: 18px;
+}
+
+#connect {
+    background-color: lightseagreen;
+    border-radius: 18px;
+    color: whitesmoke;
+}
+
+#message {
+    background-color: azure;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 18px;
+    color: mediumaquamarine;
+    
+}
+
+#messages {
+    background-color: powderblue;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 18px;
+    color: teal;
+}
+
+#message ul {
+    text-align: center;
+}
+
+footer {
+    background-color: lightsteelblue;
+    padding-left: 3px;
+    border-radius: 5px;
+    
+}
+
+@media all and (max-width: 800px) {
+    body {
+        color:antiquewhite;
+        font-size: x-large;
+    }
+}
+
+label {
+    color: slategrey;
+    font-size: medium;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: mintcream;
+    color: cadetblue;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: ghostwhite;
+}
+
+
+
+
+

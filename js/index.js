@@ -7,7 +7,7 @@ footer.appendChild (copyRight);
 
 const skillsSelection = document.getElementById('skills');
 const skillList = skillsSelection.querySelector('ul');
-const skills = ['JavaScript'];
+const skills = ['JavaScript', 'HTML', 'CSS'];
 for (let i = 0; i < skills.length; i++) {
     const item = document.createElement ('li');
     item.textContent = skills[i];
