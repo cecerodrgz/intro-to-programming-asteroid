@@ -54,6 +54,8 @@ h2 {
     padding: 15px;
     margin-bottom: 5px;
     border-radius: 18px;
+    width: 250px;
+    height: 150px;
     color: teal;
 }
 
@@ -94,7 +96,60 @@ button:hover {
     background-color: ghostwhite;
 }
 
+/* lesson-4-5 */
+.item{
+    color:aqua;
+    padding: 25px;
+    background: white;
+    border-radius: 6px;
+    margin: 15px;
+    width: 6rem;
+    height: 1rem;
+    text-align: center;
+}
 
+.main-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.connect-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.items{
+    color: lightgreen;
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+    margin: 5px;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+}
 
+#message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: 100 auto;
+}
+
+#messages{
+    display: flex;
+    flex-direction: column;
+    margin: 100 auto;
+    width: 350px;
+    height: 150px;
+}
+
+ul[role='list_item'] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
