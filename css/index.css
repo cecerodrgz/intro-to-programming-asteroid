@@ -153,3 +153,11 @@ ul[role='list_item'] {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+    .navbar {
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    }
+    }git s
